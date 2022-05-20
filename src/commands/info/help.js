@@ -13,12 +13,7 @@ module.exports = class extends Command {
 			content: 'Help enviado no privado',
 			ephemeral: true
 		})
-		interaction.user.send(
-			`Para utilizar cada comando, basta digitar / e o nome do comando
-\`\`\`Lista de comandos:
-help: Manda a mensagem que você esta lendo agora
-ping: Exibe o ping do bot
-myping: Exibe o seu ping\`\`\``
-		)
+		
+		interaction.user.send('Comando help não está pronto')
 	}
 }
